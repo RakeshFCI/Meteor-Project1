@@ -1,0 +1,54 @@
+<head>
+  <title>myFirstApp</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+         <h1>Welcome to Meteor</h1>
+
+         {{>addNumber }}
+    </header>
+
+</div>
+
+</body>
+
+<template name="addNumber">
+  <form class="form">
+    <input type="text" name="a" placeholder="Enter the first value" /> +
+    <input type="text" name="b" Placeholder="Enter the second value"/>
+    <input type="submit" class="button" name="sumValue" value="Sum" />
+    <input type="text" name="result" hidden="true"/>
+    <br><br>Total Sum = {{counter}}
+
+{{alert}}
+  </form>
+
+</template>
+
+
+ <!-- <template name="hello">
+
+        {{alert}}
+
+  <input id="v1"  type="text" name="value1" value=""> +
+    <input id="v2"  type="text" name="value2" value="">
+    <button id="add" value="" >sum</button>
+    {{alert}}  -->
+
+
+
+
+  <!--<input id="v1"  type="text" name="value1" value="">
+  <button id="demo" value="" >Click</button>
+  {{alert}}-->
+
+  <!--<input ide="value2" type="text" name="value2" value="">
+  <p>sum = {{textAdd}}</p>
+  <button id="demo" value="" >Click</button>
+   {{alert}}
+
+
+
+</template> -->
